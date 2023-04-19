@@ -26,6 +26,7 @@ const Login = () => {
 
      const focusHandler = (event) => {
           setTouched({...touched,[event.target.name] : true})
+          
      }
 
      const submitHandler = (event) => {
